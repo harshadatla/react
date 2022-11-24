@@ -19,7 +19,7 @@ const Biodata = () => {
 				rounded={"lg"}
 			/>
 
-			<Box bg="black" size="xl" h="128" p="3" rounded={"lg"}>
+			<Box bg="black" size="xl" h="128" w="auto" p="3" rounded={"lg"}>
 				<Heading size={"lg"} fontSize={25}>
 					{firstName} {lastName}
 				</Heading>
