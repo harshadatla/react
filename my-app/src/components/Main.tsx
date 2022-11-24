@@ -1,12 +1,16 @@
-import React from "react";
-import { Button, Box, Heading } from "native-base";
+import { Box } from "native-base";
+import Biodata from "./Biodata";
+import Education from "./Education";
+import Experience from "./Experience";
+import Skills from "./Skills";
 
 const Main = () => {
 	return (
-		<Box bg="primary.400" p="3" rounded="lg">
-			<Heading textAlign={"center"} textTransform={"capitalize"}>
-				Welcome
-			</Heading>
+		<Box bg="brown" p="3" rounded="lg">
+			<Biodata />
+			<Experience />
+			<Education />
+			<Skills />
 		</Box>
 	);
 };
